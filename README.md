@@ -11,12 +11,14 @@ Role Variables
 Example Playbook
 ----------------
 
+```
 - s3_bucket_facts:
     name: bytewireclients
 
 - assert:
     that:
       - s3.name == 'bytewireclients
+```
 
 License
 -------
