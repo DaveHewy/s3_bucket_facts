@@ -13,11 +13,11 @@ Example Playbook
 
 ```
 - s3_bucket_facts:
-    name: bytewireclients
+    name: example-s3-bucket
 
 - assert:
     that:
-      - s3.name == 'bytewireclients
+     - s3.name == 'example-s3-bucket'
 ```
 
 License
