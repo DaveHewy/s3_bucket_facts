@@ -27,5 +27,4 @@ BSD
 
 Author Information
 ------------------
-
-BGC Partners
+David Heward
