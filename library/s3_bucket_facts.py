@@ -96,7 +96,7 @@ def main():
     # only support pre-constructed domain_name or now
     bucket = get_s3_bucket(module, client)
 
-    module.exit_json(changed=False, ansible_facts={'s3': bucket})
+    module.exit_json(changed=False, ansible_facts=bucket)
 
 
 if __name__ == '__main__':
